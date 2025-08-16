@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "name": "Ada",
+    "age": 26,
+    "location": "Lagos, NG",
+    "bio": "Designer \u2022 Book lover \u2022 Beach sunsets",
+    "tags": [
+      "Design",
+      "Books",
+      "Travel"
+    ],
+    "gender": "Female",
+    "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": "2",
+    "name": "Tunde",
+    "age": 29,
+    "location": "Abuja, NG",
+    "bio": "Product manager \u2022 foodie \u2022 football",
+    "tags": [
+      "Food",
+      "Tech",
+      "Sports"
+    ],
+    "gender": "Male",
+    "image": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": "3",
+    "name": "Zara",
+    "age": 24,
+    "location": "Ibadan, NG",
+    "bio": "Photographer \u2022 hiking \u2022 art",
+    "tags": [
+      "Art",
+      "Outdoors",
+      "Photography"
+    ],
+    "gender": "Female",
+    "image": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": "4",
+    "name": "Chidi",
+    "age": 31,
+    "location": "Port Harcourt, NG",
+    "bio": "Engineer \u2022 chess \u2022 afrobeats",
+    "tags": [
+      "Music",
+      "Chess",
+      "Tech"
+    ],
+    "gender": "Male",
+    "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": "5",
+    "name": "Aisha",
+    "age": 27,
+    "location": "Kano, NG",
+    "bio": "Doctor \u2022 wellness \u2022 minimalist",
+    "tags": [
+      "Health",
+      "Yoga",
+      "Reading"
+    ],
+    "gender": "Female",
+    "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": "6",
+    "name": "Femi",
+    "age": 30,
+    "location": "Lagos, NG",
+    "bio": "Developer \u2022 gaming \u2022 coffee",
+    "tags": [
+      "Tech",
+      "Gaming",
+      "Coffee"
+    ],
+    "gender": "Male",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1200&auto=format&fit=crop"
+  }
+]

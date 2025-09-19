@@ -7,12 +7,16 @@ import { RiLockPasswordFill } from 'react-icons/ri';
 import { PiEnvelope, PiLock, PiUser } from 'react-icons/pi';
 import { MdLogin } from 'react-icons/md';
 import Link from 'next/link';
+import { useState } from 'react';
+import { useAuth } from '../context/AuthContext';
 
 
 
 export default function SignupPage() {
   const params = useSearchParams();
   const token = params.get('token');
+  const{user} = useAuth();
+
   return (
     <main>
       <Navbar />
@@ -21,6 +25,7 @@ export default function SignupPage() {
           <div className="col-12 col-md-8 col-lg-5">
             <div className="card card-soft rounded-4 p-4">
               <h3 className="fw-bold mb-3 p-3"> Create your account <FaNoteSticky /></h3>
+              <h5>{user?.fullName}</h5>
               <hr/>
               <form onSubmit={e=>e.preventDefault()} className="needs-validation" noValidate>
 

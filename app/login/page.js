@@ -13,6 +13,8 @@ import Link from 'next/link';
 
 
 export default function LoginPage() {
+  
+       
   const { login, loading, error, user } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -26,12 +28,12 @@ export default function LoginPage() {
 return (
     <>
     <Navbar />
-    <div className = "py-5 shadow card card-soft rounded-4 p-3" style={{ maxWidth: "400px", margin: "auto" }}>
+    <div className = "py-5 shadow card card-soft rounded-4 p-3 mt-4" style={{ maxWidth: "400px", margin: "auto" }}>
       <h3 className="fw-bold mb-2 text-center">Login  <FaSignInAlt /> </h3>
       <hr/>
-      {user && <p>Welcome, {user.name}!</p>}
+      {user && <p>Welcome, {user.fName}!</p>}
       {error && <p style={{ color: "red" }}>{error}</p>}
-      <form onSubmit={handleSubmit}>
+      <form  onSubmit={handleSubmit}>
 
       <div className="mb-3">
         <div className='d-flex'>
